@@ -73,6 +73,7 @@ All notes and organizational structure are stored in your browser's localStorage
 3. Find localStorage for your domain
 4. Export the `digital-garden-notes` key
 
+
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
