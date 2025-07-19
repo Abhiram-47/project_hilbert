@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* KaTeX styles */
+@import url('https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css');
+
+/* Custom styles for better integration */
+.math-block {
+  text-align: center;
+  overflow-x: auto;
+}
+
+.math-inline {
+  display: inline-block;
+}
+
+.math-error {
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+/* Code block improvements */
+pre[class*="language-"] {
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+code[class*="language-"] {
+  font-size: 0.875rem;
+}
+
+/* Prose improvements */
+.prose {
+  color: inherit;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  color: inherit;
+}
+
+.prose strong {
+  color: inherit;
+}
+
+.prose code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.prose pre {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.prose pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.prose blockquote {
+  border-left-color: currentColor;
+  opacity: 0.8;
+}
+
+.prose table {
+  color: inherit;
+}
+
+.prose thead th {
+  color: inherit;
+  border-bottom-color: currentColor;
+}
+
+.prose tbody td {
+  border-bottom-color: currentColor;
+}
