@@ -76,4 +76,4 @@ All notes and organizational structure are stored in your browser's localStorage
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests!
+Feel free to submit issues and enhancement requests!!
